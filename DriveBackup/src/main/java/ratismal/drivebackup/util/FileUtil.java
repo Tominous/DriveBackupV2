@@ -172,7 +172,7 @@ public class FileUtil {
                 }
             }
             zos.closeEntry();
-            // MessageUtil.sendConsoleMessage("Folder successfully compressed");
+             MessageUtil.sendConsoleMessage("Folder successfully compressed");
         } catch (IOException ex) {
             MessageUtil.sendConsoleException(ex);
         } finally {
