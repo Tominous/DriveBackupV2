@@ -183,7 +183,7 @@ public class Config {
         prefixChatMessages = pluginconfig.getBoolean("advanced.prefix-chat-messages");
 
 
-        //MessageUtil.sendConsoleMessage("Scheduling backups for every " + backupDelay + " ticks.");
+        MessageUtil.sendConsoleMessage("Scheduling backups for every " + backupDelay + " ticks.");
 
         if (pluginconfig.isList("backup-list")) {
 
